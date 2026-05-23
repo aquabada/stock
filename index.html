@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--link rel="stylesheet" href="stockStyle.css"-->
+<style>
+    .split-container {
+    display: flex; /* Use Flexbox for layout */
+    height: 100vh; /* Make the container fill the full viewport height */
+    border: none;
+    }
+
+    iframe {
+    flex: 1; /* Distribute available space equally between the iframes */
+    border: 1px solid #ccc; /* Optional: Add borders for visibility */
+    height: 100%; /* Ensure iframes fill the height of the container */
+    width: 100%;
+    }
+</style>
+</head>
+<body>
+<div class="split-container">
+  <iframe src="https://esignal.co.kr/kospi200-futures-day-night/#google_vignette"></iframe>    
+  <iframe src="https://ko.tradingeconomics.com/commodity/crude-oil" id="iframe_1"></iframe>
+  <iframe src="https://kr.investing.com/indices/indices-futures"></iframe>
+</div>
+
+</body>
+</html>
